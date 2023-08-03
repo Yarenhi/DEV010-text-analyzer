@@ -130,7 +130,7 @@ describe('CSS', () => {
       expect(
         allRulesAttributes.some(
           (attribute) => BOX_MODEL_ATTRIBUTES.some(
-            boxModelAttribute => attribute.startsWith(boxModelAttribute)
+            boxModelAttribute =>attribute.startsWith(boxModelAttribute)
           )
         )
       ).toBe(true);

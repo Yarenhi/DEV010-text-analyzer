@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif)
+    
+}
+header{
+    color: rgb(1, 11, 3);
+    text-align:center;
+    font-size: 3vw;
+   text-shadow:
+    3px 3px 6px rgb(50, 252, 9),
+    0 0 8em rgb(1, 20, 3),
+    0 0 0.2em rgb(1, 21, 3);
+ -webkit-text-stroke: 1px rgb(17, 244, 9);
+ color: black; 
+  }
+
+
+textarea[name="user-input"]{
+    color: rgba(14, 244, 33, 0.816);
+    background-color: black;
+    width: 50%;
+    height: 50%;
+    resize: none;
+       border-color: lawngreen;
+       justify-content: center;
+       position: relative;
+       top: 50%;
+       left: 20%;
+
+    /*padding-top: 10%; l dio espacio al interior del textarea*/
+    }
+
+#reset-button{
+align-items: center;
+text-align: center;
+color:rgba(11, 246, 50, 0.906);
+border: 3px solid rgb(17, 244, 9);
+ background-color: black;
+ font-size: x-large;
+ padding: 10px;
+
+}
+footer{
+ justify-content: flex-start;
+ color:rgb(17, 244, 9)
+}
+
+
+
+#divTexarea {
+    padding:20px
+    
+}
+
+ul .contador {
+    margin-right: auto;
+    margin-left: auto;
+    column-count: "3"
+    
+}
+
+.contador{
+    width: 320px; 
+    height: auto;
+    margin: 0.5cm;
+    padding: 10px;
+    border: 3px solid rgb(17, 244, 9);
+    box-sizing: border-box;
+    background-color: black;
+    border-radius: 15px;
+    text-align: left;
+    list-style-type: none;
+    color:rgb(17, 244, 9)
+  
+
+ 
+}
+

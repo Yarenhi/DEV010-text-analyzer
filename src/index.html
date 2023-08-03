@@ -3,11 +3,31 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Analizador de texto</title>
+  <title>Analizador de textos</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+  <header>
+    <h1> Analizador de textos </h1>   
+  </header>
+ <div id="divTexarea">
+  <textarea name="user-input"  rows="10" cols= "30" placeholder= "Ingresa Texto"> </textarea>
+ </div>
+<section id="metrica">
+    <ul class= "contadores" >
+      <li class= "contador" data-testid="word-count">Palabras</li> 
+      <li class= "contador" data-testid="character-count">Caracteres</li>
+      <li class= "contador" data-testid="character-no-spaces-count">Solo Caracteres</li>
+      <li class= "contador" data-testid="number-count">Números</li>
+      <li class= "contador" data-testid="number-sum">Suma total de números</li>
+      <li class= "contador" data-testid="word-length-average"> Longitud promedio</li>
+    </ul>
+  //</section>
+  <button id="reset-button">Limpiar</button>
+<footer>
+  <p> Dulce Yarenhi García Maya</p>
+</footer>
   <script src="index.js" type="module"></script>
 </body>
 </html>
